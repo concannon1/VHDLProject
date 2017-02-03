@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "U:/CS2022/Project1/decoder_3_to_8.xst" -ofn "U:/CS2022/Project1/decoder_3_to_8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a30t-csg324-3 decoder_3_to_8.ngc decoder_3_to_8.ngd  
+map -intstyle ise -p xc7a30t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o decoder_3_to_8_map.ncd decoder_3_to_8.ngd decoder_3_to_8.pcf 

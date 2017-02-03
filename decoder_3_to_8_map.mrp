@@ -1,0 +1,38 @@
+Release 13.2 Map O.61xd (nt64)
+Xilinx Mapping Report File for Design 'decoder_3_to_8'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc7a30t-csg324-3 -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off
+-power off -o decoder_3_to_8_map.ncd decoder_3_to_8.ngd decoder_3_to_8.pcf 
+Target Device  : xc7a30t
+Target Package : csg324
+Target Speed   : -3
+Mapper Version : artix7 -- $Revision: 1.55 $
+Mapped Date    : Mon Mar 07 11:29:02 2016
+
+Design Summary
+--------------
+Number of errors   :   1
+Number of warnings :   0
+
+Section 1 - Errors
+------------------
+ERROR:Security:9 - No 'ISE' nor 'WebPack' feature was available for part
+'xc7a30t'.
+ERROR:Map:258 - A problem was encountered attempting to get the license for this
+   architecture. 
+
+Section 2 - Warnings
+--------------------
+WARNING:Security:43 - No license file was found in the standard Xilinx license
+directory.
+WARNING:Security:44 - No license file was found.
+
+Section 3 - Informational
+-------------------------
+INFO:Security:51 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:53 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:54 - 'xc7a30t' is a Beta WebPack part.
+INFO:Security:68 - Please run the Xilinx License Configuration Manager
