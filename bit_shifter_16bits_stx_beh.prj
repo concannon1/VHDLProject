@@ -1,0 +1,2 @@
+vhdl isim_temp "mux_4_to_1.vhd"
+vhdl isim_temp "bit_shifter_16bits.vhd"

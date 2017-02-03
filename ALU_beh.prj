@@ -1,0 +1,8 @@
+vhdl work "full_adder.vhd"
+vhdl work "RCA16bit.vhd"
+vhdl work "logic_bit_slice.vhd"
+vhdl work "B_input_logic.vhd"
+vhdl work "mux_2_to_1_16bits.vhd"
+vhdl work "logic_circuit.vhd"
+vhdl work "arithmetic_circuit.vhd"
+vhdl work "ALU.vhd"
