@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "U:/CS2022/Project1/zerofill_isim_beh.exe" -prj "U:/CS2022/Project1/zerofill_beh.prj" "work.zerofill" -mt "off" -v "1" 

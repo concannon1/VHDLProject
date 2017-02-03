@@ -1,0 +1,171 @@
+Running: C:\Xilinx\13.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o U:/CS2022/Project1/zerofill_isim_beh.exe -prj U:/CS2022/Project1/zerofill_beh.prj work.zerofill -mt off -v 1 
+ISim O.61xd (signature 0x1cce1bb2)
+Turned off multi-threading for compilation
+Determining compilation order of HDL files
+INFO:Simulator:958 - Library Mapping: Sourcing library mapping file "C:/Xilinx/13.2/ISE_DS/ISE/vhdl/hdp/nt64/xilinxsim.ini"
+The vhdl library search path for library \"std\" is now \"c:/xilinx/13.2/ise_ds/ise/vhdl/hdp/nt64/std\"
+The veri library search path for library \"std\" is now \"c:/xilinx/13.2/ise_ds/ise/vhdl/hdp/nt64/std\"
+The vhdl library search path for library \"ieee\" is now \"c:/xilinx/13.2/ise_ds/ise/vhdl/hdp/nt64/ieee\"
+The veri library search path for library \"ieee\" is now \"c:/xilinx/13.2/ise_ds/ise/vhdl/hdp/nt64/ieee\"
+The vhdl library search path for library \"ieee_proposed\" is now \"c:/xilinx/13.2/ise_ds/ise/vhdl/hdp/nt64/ieee_proposed\"
+The veri library search path for library \"ieee_proposed\" is now \"c:/xilinx/13.2/ise_ds/ise/vhdl/hdp/nt64/ieee_proposed\"
+The vhdl library search path for library \"vl\" is now \"c:/xilinx/13.2/ise_ds/ise/vhdl/hdp/nt64/vl\"
+The veri library search path for library \"vl\" is now \"c:/xilinx/13.2/ise_ds/ise/vhdl/hdp/nt64/vl\"
+The vhdl library search path for library \"synopsys\" is now \"c:/xilinx/13.2/ise_ds/ise/vhdl/hdp/nt64/synopsys\"
+The veri library search path for library \"synopsys\" is now \"c:/xilinx/13.2/ise_ds/ise/vhdl/hdp/nt64/synopsys\"
+The vhdl library search path for library \"simprim\" is now \"c:/xilinx/13.2/ise_ds/ise/vhdl/hdp/nt64/simprim\"
+The veri library search path for library \"simprim\" is now \"c:/xilinx/13.2/ise_ds/ise/vhdl/hdp/nt64/simprim\"
+The vhdl library search path for library \"unisim\" is now \"c:/xilinx/13.2/ise_ds/ise/vhdl/hdp/nt64/unisim\"
+The veri library search path for library \"unisim\" is now \"c:/xilinx/13.2/ise_ds/ise/vhdl/hdp/nt64/unisim\"
+The vhdl library search path for library \"unimacro\" is now \"c:/xilinx/13.2/ise_ds/ise/vhdl/hdp/nt64/unimacro\"
+The veri library search path for library \"unimacro\" is now \"c:/xilinx/13.2/ise_ds/ise/vhdl/hdp/nt64/unimacro\"
+The vhdl library search path for library \"aim\" is now \"c:/xilinx/13.2/ise_ds/ise/vhdl/hdp/nt64/aim\"
+The veri library search path for library \"aim\" is now \"c:/xilinx/13.2/ise_ds/ise/vhdl/hdp/nt64/aim\"
+The vhdl library search path for library \"cpld\" is now \"c:/xilinx/13.2/ise_ds/ise/vhdl/hdp/nt64/cpld\"
+The veri library search path for library \"cpld\" is now \"c:/xilinx/13.2/ise_ds/ise/vhdl/hdp/nt64/cpld\"
+The vhdl library search path for library \"pls\" is now \"c:/xilinx/13.2/ise_ds/ise/vhdl/hdp/nt64/pls\"
+The veri library search path for library \"pls\" is now \"c:/xilinx/13.2/ise_ds/ise/vhdl/hdp/nt64/pls\"
+The vhdl library search path for library \"xilinxcorelib\" is now \"c:/xilinx/13.2/ise_ds/ise/vhdl/hdp/nt64/xilinxcorelib\"
+The veri library search path for library \"xilinxcorelib\" is now \"c:/xilinx/13.2/ise_ds/ise/vhdl/hdp/nt64/xilinxcorelib\"
+The vhdl library search path for library \"aim_ver\" is now \"c:/xilinx/13.2/ise_ds/ise/verilog/hdp/nt64/aim_ver\"
+The veri library search path for library \"aim_ver\" is now \"c:/xilinx/13.2/ise_ds/ise/verilog/hdp/nt64/aim_ver\"
+The vhdl library search path for library \"cpld_ver\" is now \"c:/xilinx/13.2/ise_ds/ise/verilog/hdp/nt64/cpld_ver\"
+The veri library search path for library \"cpld_ver\" is now \"c:/xilinx/13.2/ise_ds/ise/verilog/hdp/nt64/cpld_ver\"
+The vhdl library search path for library \"simprims_ver\" is now \"c:/xilinx/13.2/ise_ds/ise/verilog/hdp/nt64/simprims_ver\"
+The veri library search path for library \"simprims_ver\" is now \"c:/xilinx/13.2/ise_ds/ise/verilog/hdp/nt64/simprims_ver\"
+The vhdl library search path for library \"unisims_ver\" is now \"c:/xilinx/13.2/ise_ds/ise/verilog/hdp/nt64/unisims_ver\"
+The veri library search path for library \"unisims_ver\" is now \"c:/xilinx/13.2/ise_ds/ise/verilog/hdp/nt64/unisims_ver\"
+The vhdl library search path for library \"uni9000_ver\" is now \"c:/xilinx/13.2/ise_ds/ise/verilog/hdp/nt64/uni9000_ver\"
+The veri library search path for library \"uni9000_ver\" is now \"c:/xilinx/13.2/ise_ds/ise/verilog/hdp/nt64/uni9000_ver\"
+The vhdl library search path for library \"unimacro_ver\" is now \"c:/xilinx/13.2/ise_ds/ise/verilog/hdp/nt64/unimacro_ver\"
+The veri library search path for library \"unimacro_ver\" is now \"c:/xilinx/13.2/ise_ds/ise/verilog/hdp/nt64/unimacro_ver\"
+The vhdl library search path for library \"xilinxcorelib_ver\" is now \"c:/xilinx/13.2/ise_ds/ise/verilog/hdp/nt64/xilinxcorelib_ver\"
+The veri library search path for library \"xilinxcorelib_ver\" is now \"c:/xilinx/13.2/ise_ds/ise/verilog/hdp/nt64/xilinxcorelib_ver\"
+The vhdl library search path for library \"secureip\" is now \"c:/xilinx/13.2/ise_ds/ise/verilog/hdp/nt64/xip/secureip\"
+The veri library search path for library \"secureip\" is now \"c:/xilinx/13.2/ise_ds/ise/verilog/hdp/nt64/xip/secureip\"
+INFO:Simulator:958 - Library Mapping: Sourcing library mapping file "xilinxsim.ini"
+The vhdl library search path for library \"work\" is now \"u:/cs2022/project1/isim/work\"
+The veri library search path for library \"work\" is now \"u:/cs2022/project1/isim/work\"
+The vhdl library search path for library \"secureip\" is now \"c:/xilinx/13.2/ise_ds/ise/verilog/hdp/nt64/xip/secureip\"
+The veri library search path for library \"secureip\" is now \"c:/xilinx/13.2/ise_ds/ise/verilog/hdp/nt64/xip/secureip\"
+
+-- Dumping Relevant Parameters
+XILINX = C:\Xilinx\13.2\ISE_DS\ISE\
+PATH = C:\Xilinx\13.2\ISE_DS\ISE\\lib\nt64;C:\Xilinx\13.2\ISE_DS\ISE\\bin\nt64;C:\Xilinx\13.2\ISE_DS\PlanAhead\bin;C:\Xilinx\13.2\ISE_DS\ISE\bin\nt64;C:\Xilinx\13.2\ISE_DS\ISE\lib\nt64;C:\Xilinx\13.2\ISE_DS\EDK\bin\nt64;C:\Xilinx\13.2\ISE_DS\EDK\lib\nt64;C:\Xilinx\13.2\ISE_DS\EDK\gnu\microblaze\nt64\bin;C:\Xilinx\13.2\ISE_DS\EDK\gnu\powerpc-eabi\nt64\bin;C:\Xilinx\13.2\ISE_DS\EDK\gnuwin\bin;C:\Xilinx\13.2\ISE_DS\common\bin\nt64;C:\Xilinx\13.2\ISE_DS\common\lib\nt64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Haskell Platform\2014.2.0.0\lib\extralibs\bin;C:\Program Files\Haskell Platform\2014.2.0.0\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\Haskell Platform\2014.2.0.0\mingw\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;C:\opencv\build\x86\vc11\bin;C:\Program Files (x86)\Autodesk\Backburner\;C:\Program Files\MATLAB\R2015a\runtime\win64;C:\Program Files\MATLAB\R2015a\bin;d:\oracle;%OPENCV_DIR%\x86\vc11\bin;C:\Users\Administrator\AppData\Roaming\cabal\bin
+CWD = U:/CS2022/Project1
+GCC = C:/Xilinx/13.2/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe
+-- Done dumping Relevant Parameters
+
+-- Dumping System Information
+release = 6.1 Service Pack 1
+machine = x86_64
+-- Done dumping System Information
+
+-- Dumping Loaded Modules
+C:\Windows\SYSTEM32\ntdll.dll
+C:\Windows\SYSTEM32\sechost.dll
+C:\Windows\System32\DAVHLPR.dll
+C:\Windows\System32\WINSTA.dll
+C:\Windows\System32\davclnt.dll
+C:\Windows\System32\drprov.dll
+C:\Windows\System32\ntlanman.dll
+C:\Windows\WinSxS\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_08e61857a83bc251\MSVCP90.dll
+C:\Windows\WinSxS\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_08e61857a83bc251\MSVCR90.dll
+C:\Windows\system32\ADVAPI32.dll
+C:\Windows\system32\GDI32.dll
+C:\Windows\system32\IMM32.DLL
+C:\Windows\system32\KERNELBASE.dll
+C:\Windows\system32\LPK.dll
+C:\Windows\system32\MPR.dll
+C:\Windows\system32\MSCTF.dll
+C:\Windows\system32\NSI.dll
+C:\Windows\system32\PSAPI.DLL
+C:\Windows\system32\RPCRT4.dll
+C:\Windows\system32\USER32.dll
+C:\Windows\system32\USP10.dll
+C:\Windows\system32\VERSION.dll
+C:\Windows\system32\WS2_32.dll
+C:\Windows\system32\WSOCK32.dll
+C:\Windows\system32\cscapi.dll
+C:\Windows\system32\dbghelp.dll
+C:\Windows\system32\kernel32.dll
+C:\Windows\system32\msvcrt.dll
+C:\Windows\system32\netutils.dll
+C:\Windows\system32\ole32.dll
+C:\Windows\system32\wkscli.dll
+C:\Xilinx\13.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe
+C:\Xilinx\13.2\ISE_DS\ISE\lib\nt64\LIBBZ2.dll
+C:\Xilinx\13.2\ISE_DS\ISE\lib\nt64\SHSMP64.dll
+C:\Xilinx\13.2\ISE_DS\ISE\lib\nt64\boost_date_time-vc90-mt-p-1_38.dll
+C:\Xilinx\13.2\ISE_DS\ISE\lib\nt64\boost_filesystem-vc90-mt-p-1_38.dll
+C:\Xilinx\13.2\ISE_DS\ISE\lib\nt64\boost_iostreams-vc90-mt-p-1_38.dll
+C:\Xilinx\13.2\ISE_DS\ISE\lib\nt64\boost_program_options-vc90-mt-p-1_38.dll
+C:\Xilinx\13.2\ISE_DS\ISE\lib\nt64\boost_regex-vc90-mt-p-1_38.dll
+C:\Xilinx\13.2\ISE_DS\ISE\lib\nt64\boost_system-vc90-mt-p-1_38.dll
+C:\Xilinx\13.2\ISE_DS\ISE\lib\nt64\boost_thread-vc90-mt-p-1_38.dll
+C:\Xilinx\13.2\ISE_DS\ISE\lib\nt64\boost_zlib-vc90-mt-p-1_38.dll
+C:\Xilinx\13.2\ISE_DS\ISE\lib\nt64\libICR.dll
+C:\Xilinx\13.2\ISE_DS\ISE\lib\nt64\libMiniZip.dll
+C:\Xilinx\13.2\ISE_DS\ISE\lib\nt64\libPersonalityModule.dll
+C:\Xilinx\13.2\ISE_DS\ISE\lib\nt64\libPort_Std.dll
+C:\Xilinx\13.2\ISE_DS\ISE\lib\nt64\libPortability.dll
+C:\Xilinx\13.2\ISE_DS\ISE\lib\nt64\libPrjrep_Clientac.dll
+C:\Xilinx\13.2\ISE_DS\ISE\lib\nt64\libStaticFileParsers.dll
+C:\Xilinx\13.2\ISE_DS\ISE\lib\nt64\libThread.dll
+C:\Xilinx\13.2\ISE_DS\ISE\lib\nt64\libUtilC_MessageDispatcher.dll
+C:\Xilinx\13.2\ISE_DS\ISE\lib\nt64\libUtilities.dll
+C:\Xilinx\13.2\ISE_DS\ISE\lib\nt64\libVrfc_Verific.dll
+C:\Xilinx\13.2\ISE_DS\ISE\lib\nt64\libVrfc_Vhdl_Sort.dll
+C:\Xilinx\13.2\ISE_DS\ISE\lib\nt64\libZlib.dll
+C:\Xilinx\13.2\ISE_DS\ISE\lib\nt64\libisl_iostreams.dll
+C:\Xilinx\13.2\ISE_DS\ISE\lib\nt64\libpthread.dll
+C:\Xilinx\13.2\ISE_DS\ISE\lib\nt64\libxercesc.dll
+C:\Xilinx\13.2\ISE_DS\ISE\lib\nt64\stlport.5.1.dll
+-- Done dumping Loaded Modules
+
+-- Dumping library mapping
+aim=C:/Xilinx/13.2/ISE_DS/ISE/vhdl/hdp/nt64/aim
+aim_ver=C:/Xilinx/13.2/ISE_DS/ISE/verilog/hdp/nt64/aim_ver
+cpld=C:/Xilinx/13.2/ISE_DS/ISE/vhdl/hdp/nt64/cpld
+cpld_ver=C:/Xilinx/13.2/ISE_DS/ISE/verilog/hdp/nt64/cpld_ver
+ieee=C:/Xilinx/13.2/ISE_DS/ISE/vhdl/hdp/nt64/ieee
+ieee_proposed=C:/Xilinx/13.2/ISE_DS/ISE/vhdl/hdp/nt64/ieee_proposed
+pls=C:/Xilinx/13.2/ISE_DS/ISE/vhdl/hdp/nt64/pls
+secureip=C:/Xilinx/13.2/ISE_DS/ISE/verilog/hdp/nt64/xip/secureip
+simprim=C:/Xilinx/13.2/ISE_DS/ISE/vhdl/hdp/nt64/simprim
+simprims_ver=C:/Xilinx/13.2/ISE_DS/ISE/verilog/hdp/nt64/simprims_ver
+std=C:/Xilinx/13.2/ISE_DS/ISE/vhdl/hdp/nt64/std
+synopsys=C:/Xilinx/13.2/ISE_DS/ISE/vhdl/hdp/nt64/synopsys
+uni9000_ver=C:/Xilinx/13.2/ISE_DS/ISE/verilog/hdp/nt64/uni9000_ver
+unimacro=C:/Xilinx/13.2/ISE_DS/ISE/vhdl/hdp/nt64/unimacro
+unimacro_ver=C:/Xilinx/13.2/ISE_DS/ISE/verilog/hdp/nt64/unimacro_ver
+unisim=C:/Xilinx/13.2/ISE_DS/ISE/vhdl/hdp/nt64/unisim
+unisims_ver=C:/Xilinx/13.2/ISE_DS/ISE/verilog/hdp/nt64/unisims_ver
+vl=C:/Xilinx/13.2/ISE_DS/ISE/vhdl/hdp/nt64/vl
+work=isim/work
+xilinxcorelib=C:/Xilinx/13.2/ISE_DS/ISE/vhdl/hdp/nt64/xilinxcorelib
+xilinxcorelib_ver=C:/Xilinx/13.2/ISE_DS/ISE/verilog/hdp/nt64/xilinxcorelib_ver
+-- Done dumping library mapping
+
+Parsing VHDL file "U:/CS2022/Project1/zerofill.vhd" into library work
+Parsing entity <zerofill>.
+Parsing architecture <Behavioral> of entity <zerofill>.
+Starting static elaboration
+Executing zerofill(Behavioral)
+Completed static elaboration
+Compiling package standard - standard
+Compiling package std_logic_1164 - p_2592010699
+Compiling isim/precompiled.exe.sim/ieee/p_2592010699.c to isim/precompiled.exe.sim/ieee/p_2592010699.nt64.obj with command:
+"C:/Xilinx/13.2/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/precompiled.exe.sim/ieee/p_2592010699.nt64.obj" -I"C:/Xilinx/13.2/ISE_DS/ISE/data/include" "isim/precompiled.exe.sim/ieee/p_2592010699.c"
+Compiling architecture behavioral of entity zerofill - a_3195332689_3212880686
+Compiling isim/zerofill_isim_beh.exe.sim/work/a_3195332689_3212880686.c to isim/zerofill_isim_beh.exe.sim/work/a_3195332689_3212880686.nt64.obj with command:
+"C:/Xilinx/13.2/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/zerofill_isim_beh.exe.sim/work/a_3195332689_3212880686.nt64.obj" -I"C:/Xilinx/13.2/ISE_DS/ISE/data/include" "isim/zerofill_isim_beh.exe.sim/work/a_3195332689_3212880686.c"
+Time Resolution for simulation is 1ps.
+Compiling isim/zerofill_isim_beh.exe.sim/work/zerofill_isim_beh.exe_main.c to isim/zerofill_isim_beh.exe.sim/work/zerofill_isim_beh.exe_main.nt64.obj with command:
+"C:/Xilinx/13.2/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/zerofill_isim_beh.exe.sim/work/zerofill_isim_beh.exe_main.nt64.obj" -I"C:/Xilinx/13.2/ISE_DS/ISE/data/include" "isim/zerofill_isim_beh.exe.sim/work/zerofill_isim_beh.exe_main.c"
+Linking with command:
+"C:/Xilinx/13.2/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -Wl,--stack,157286400 -o "isim/zerofill_isim_beh.exe.sim/zerofill_isim_beh.exe" "isim/zerofill_isim_beh.exe.sim/work/zerofill_isim_beh.exe_main.nt64.obj"  "isim/precompiled.exe.sim/ieee/p_2592010699.nt64.obj" "isim/zerofill_isim_beh.exe.sim/work/a_3195332689_3212880686.nt64.obj" "C:/Xilinx/13.2/ISE_DS/ISE/lib/nt64/libhsimengine.dll"
+Compiled 3 VHDL Units
+Built simulation executable U:/CS2022/Project1/zerofill_isim_beh.exe
+Fuse Memory Usage: 20024 KB
+Fuse CPU Usage: 77 ms

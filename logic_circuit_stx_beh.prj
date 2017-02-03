@@ -1,0 +1,2 @@
+vhdl isim_temp "logic_bit_slice.vhd"
+vhdl isim_temp "logic_circuit.vhd"

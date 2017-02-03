@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "U:/CS2022/Project1/function_unit_16bit.xst" -ofn "U:/CS2022/Project1/function_unit_16bit.syr" 
+xst -intstyle ise -ifn "U:/CS2022/Project1/function_unit_16bit.xst" -ofn "U:/CS2022/Project1/function_unit_16bit.syr" 

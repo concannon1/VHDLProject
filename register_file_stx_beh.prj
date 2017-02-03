@@ -1,0 +1,5 @@
+vhdl isim_temp "reg16.vhd"
+vhdl isim_temp "mux_8_to_1_16bits.vhd"
+vhdl isim_temp "mux_2_to_1_16bits.vhd"
+vhdl isim_temp "decoder_3_to_8.vhd"
+vhdl isim_temp "registerfile.vhd"

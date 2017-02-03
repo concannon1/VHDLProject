@@ -1,0 +1,5 @@
+vhdl work "reg16.vhd"
+vhdl work "mux_8_to_1_16bits.vhd"
+vhdl work "mux_2_to_1_16bits.vhd"
+vhdl work "decoder_3_to_8.vhd"
+vhdl work "registerfile.vhd"
